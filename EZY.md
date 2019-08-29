@@ -233,7 +233,7 @@ If you're experiencing any issues or any other difficulties, please contact us.
 * Query string
 
     ```http
-    https://infoclient.api-atb.com/opendata/realtime/arrivals?page=1&limit=3&sortBy=dateheurevol&order=descending&start=2019-08-27&end=2019-08-28
+    https://infoclient.api-atb.com/ezy/realtime/departures?page=1&limit=3&sortBy=dateheurevol&order=descending&start=2019-08-27&end=2019-08-28
     ```
 
 * Parameters
@@ -253,84 +253,97 @@ If you're experiencing any issues or any other difficulties, please contact us.
 
     ```json
     {
-    "total": 215,
-    "count": 3,
-    "results": [
+      "total": 6,
+      "count": 3,
+      "results": [
         {
-        "nation": "I",
-        "hp": "01:35",
-        "lig": "1671",
-        "mvtnum": 1234099,
-        "dateheurevol": "2019-08-28T23:35:00.000Z",
-        "sens": "D",
-        "tags": [
+          "nation": "I",
+          "hp": "21:55",
+          "hall": "C22-C25",
+          "rem3_fr": "Embarquement terminé",
+          "lig": "8340",
+          "mvtnum": 896071,
+          "etd": "22:04",
+          "dateheurevol": "2019-08-28T19:55:00.000Z",
+          "sens": "D",
+          "tags": [
             "departures_rt"
-        ],
-        "cie": "DAH",
-        "rem1_fr": "Annulé",
-        "capacite": "",
-        "eve": "AN",
-        "voltypeapp": "B738",
-        "rem_aff_en": "Cancelled",
-        "cie2l": "AH",
-        "datevol": "2019-08-29",
-        "rem1_en": "Cancelled",
-        "esc1": "ORN",
-        "rem_aff_fr": "Annulé",
-        "cie1": "AH",
-        "timestamp": "2019-08-27T03:01:20.348Z"
+          ],
+          "rem3_en": "Boarding closed",
+          "cie": "EZY",
+          "rem1_fr": "Décollé à 22:14",
+          "capacite": "",
+          "eve": "DE",
+          "voltypeapp": "A320",
+          "porte": "53",
+          "rem_aff_en": "Taken off 22:14",
+          "cie2l": "U2",
+          "datevol": "2019-08-28",
+          "rem1_en": "Taken off 22:14",
+          "esc1": "LGW",
+          "rem_aff_fr": "Décollé à 22:14",
+          "cie1": "EZY",
+          "timestamp": "2019-08-28T20:15:20.061Z"
         },
         {
-        "nation": "I",
-        "hp": "23:05",
-        "rem2_en": "Gate displayed at  21:25",
-        "hall": "D14",
-        "lig": "282",
-        "mvtnum": 966996,
-        "etd": "23:05",
-        "dateheurevol": "2019-08-28T21:05:00.000Z",
-        "sens": "D",
-        "tags": [
+          "nation": "N",
+          "hp": "20:30",
+          "hall": "C22-C24",
+          "rem3_fr": "Embarquement terminé",
+          "lig": "1715",
+          "mvtnum": 918042,
+          "etd": "20:30",
+          "dateheurevol": "2019-08-28T18:30:00.000Z",
+          "sens": "D",
+          "tags": [
             "departures_rt"
-        ],
-        "cie": "RYR",
-        "capacite": "",
-        "eve": "PR",
-        "voltypeapp": "B738",
-        "porte": "",
-        "cie2l": "FR",
-        "datevol": "2019-08-28",
-        "rem2_fr": "Affichage porte à 21:25",
-        "esc1": "STN",
-        "cie1": "FR",
-        "timestamp": "2019-08-28T09:18:20.261Z"
+          ],
+          "rem3_en": "Boarding closed",
+          "cie": "EZY",
+          "rem1_fr": "Décollé à 20:42",
+          "capacite": "",
+          "eve": "DE",
+          "voltypeapp": "A319",
+          "porte": "09",
+          "rem_aff_en": "Taken off 20:42",
+          "cie2l": "DS",
+          "datevol": "2019-08-28",
+          "rem1_en": "Taken off 20:42",
+          "esc1": "BSL",
+          "rem_aff_fr": "Décollé à 20:42",
+          "cie1": "DS",
+          "timestamp": "2019-08-28T18:43:20.150Z"
         },
         {
-        "nation": "N",
-        "hp": "23:00",
-        "rem2_en": "Gate displayed at  22:15",
-        "hall": "D12",
-        "lig": "1799",
-        "mvtnum": 937776,
-        "etd": "23:00",
-        "dateheurevol": "2019-08-28T21:00:00.000Z",
-        "sens": "D",
-        "tags": [
+          "nation": "I",
+          "hp": "16:50",
+          "hall": "C22-C25",
+          "rem3_fr": "Embarquement terminé",
+          "lig": "6140",
+          "mvtnum": 897150,
+          "etd": "16:50",
+          "dateheurevol": "2019-08-28T14:50:00.000Z",
+          "sens": "D",
+          "tags": [
             "departures_rt"
-        ],
-        "cie": "RYR",
-        "capacite": "",
-        "eve": "PR",
-        "voltypeapp": "B738",
-        "porte": "",
-        "cie2l": "FR",
-        "datevol": "2019-08-28",
-        "rem2_fr": "Affichage porte à 22:15",
-        "esc1": "LIS",
-        "cie1": "FR",
-        "timestamp": "2019-08-28T09:13:20.115Z"
+          ],
+          "rem3_en": "Boarding closed",
+          "cie": "EZY",
+          "rem1_fr": "Décollé à 17:00",
+          "capacite": "",
+          "eve": "DE",
+          "voltypeapp": "A319",
+          "porte": "55",
+          "rem_aff_en": "Taken off 17:00",
+          "cie2l": "U2",
+          "datevol": "2019-08-28",
+          "rem1_en": "Taken off 17:00",
+          "esc1": "BRS",
+          "rem_aff_fr": "Décollé à 17:00",
+          "cie1": "EZY",
+          "timestamp": "2019-08-28T15:01:20.029Z"
         }
-    ]
+      ]
     }
     ````
 
