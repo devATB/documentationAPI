@@ -126,7 +126,7 @@ If you're experiencing any issues or any other difficulties, please contact us.
 * Query string
 
     ```http
-    https://infoclient.api-atb.com/opendata/realtime/arrivals??page=1&limit=3&sortBy=dateheurevol&order=descending&start=2019-08-27&end=2019-08-28
+    https://infoclient.api-atb.com/opendata/realtime/arrivals?page=1&limit=3&sortBy=dateheurevol&order=descending&start=2019-08-27&end=2019-08-28
     ```
 
 * Parameters
