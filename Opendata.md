@@ -1,31 +1,26 @@
-# ATB Open Data API
+# Introduction
 
-***
-
-## Introduction
-
-***
 
 ### API URL and protocol
 
 The base URL for all API end-points is https://infoclient.atb-api.com/opendata.
 
 All requests must use an HTTPS (SSL) connection.
-***
+
 
 ### Authentication
 
 The API requires all requests to include an Authorization header.
 
 The API key is provided to you by the Aeroport Toulouse Blagnac.
-***
+
 
 ### Rate limiting
 
 Rate limiting is activated by default.
 
 It depends on the usage plan agreed upon with ATB.
-***
+
 
 ### Headers
 
@@ -46,7 +41,6 @@ It depends on the usage plan agreed upon with ATB.
     | via            | It is used for tracking message forwards, avoiding request loops, and  identifying the protocol capabilities of senders along the  request/response chain |
     | x-cache        | Indicates whether the response has been cached or not                                                                                                     |
 
-***
 
 ### HTTP code status replies
 
@@ -60,7 +54,6 @@ It depends on the usage plan agreed upon with ATB.
     | 429              | Too Many Request      | Client has made too many requests in a given time. Rate limiting applies |
     | 500              | Internal Server Error | Other errors from server that make the request a failure                 |
 
-***
 
 ### Error handling
 
@@ -74,7 +67,6 @@ For example:
 }
 ```
 
-***
 
 ### Date and time
 
@@ -102,26 +94,24 @@ If no time information is given in a moment representation, the time is assumed 
     2017W305T0500+0700
     ```
 
-***
 
 ### URL parameters
 
 Query strings must be url encoded.
-***
+
 
 ### Terms and conditions
 
 TBD
-***
+
 
 ### Troubleshooting
 
 If you're experiencing any issues or any other difficulties, please contact us.
-***
 
-## Reference
 
-***
+# Reference
+
 
 ### Planned Arrivals
 
@@ -210,7 +200,6 @@ If you're experiencing any issues or any other difficulties, please contact us.
     }
     ````
 
-***
 
 ### Planned Departures
 
@@ -302,7 +291,6 @@ If you're experiencing any issues or any other difficulties, please contact us.
     }
     ````
 
-***
 
 ### Realtime Arrivals
 
@@ -412,7 +400,6 @@ If you're experiencing any issues or any other difficulties, please contact us.
     }
     ````
 
-***
 
 ### Realtime Departures
 
@@ -520,7 +507,6 @@ If you're experiencing any issues or any other difficulties, please contact us.
     }
     ````
 
-***
 
 ### Airports
 
@@ -574,7 +560,6 @@ If you're experiencing any issues or any other difficulties, please contact us.
     }
     ````
 
-***
 
 ### Airlines
 
@@ -628,7 +613,6 @@ If you're experiencing any issues or any other difficulties, please contact us.
     }
     ````
 
-***
 
 ### Waitingtimes
 
@@ -686,7 +670,6 @@ If you're experiencing any issues or any other difficulties, please contact us.
     }
     ````
 
-***
 
 ### Health
 
