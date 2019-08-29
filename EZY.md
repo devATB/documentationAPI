@@ -384,43 +384,18 @@ If you're experiencing any issues or any other difficulties, please contact us.
 
     ```json
     {
-    "resources": [
+      "resources": [
         {
-        "name": "/realtime/arrivals",
-        "status": "green",
-        "secondsSinceLastUpdate": 19
+          "name": "/realtime/arrivals",
+          "status": "green",
+          "secondsSinceLastUpdate": 41
         },
         {
-        "name": "/realtime/departures",
-        "status": "green",
-        "secondsSinceLastUpdate": 19
-        },
-        {
-        "name": "/planned/arrivals",
-        "status": "green",
-        "secondsSinceLastUpdate": 46892
-        },
-        {
-        "name": "/planned/departures",
-        "status": "green",
-        "secondsSinceLastUpdate": 47492
-        },
-        {
-        "name": "airports",
-        "status": "green",
-        "secondsSinceLastUpdate": 134459
-        },
-        {
-        "name": "airlines",
-        "status": "green",
-        "secondsSinceLastUpdate": 182239
-        },
-        {
-        "name": "/waiting-times",
-        "status": "green",
-        "secondsSinceLastUpdate": 79
+          "name": "/realtime/departures",
+          "status": "green",
+          "secondsSinceLastUpdate": 41
         }
-    ]
+      ]
     }
     ````
 
