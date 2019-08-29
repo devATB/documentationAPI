@@ -9,17 +9,22 @@
 ### API URL and protocol
 
 The base URL for all API end-points is https://infoclient.atb-api.com/opendata.
+
 All requests must use an HTTPS (SSL) connection.
 ***
 
 ### Authentication
 
-The API requires all requests to include an Authorization header. The API key is provided to you by the Aeroport Toulouse Blagnac.
+The API requires all requests to include an Authorization header.
+
+The API key is provided to you by the Aeroport Toulouse Blagnac.
 ***
 
 ### Rate limiting
 
-Rate limiting is activated by default. It depends on the usage plan agreed upon with ATB.
+Rate limiting is activated by default.
+
+It depends on the usage plan agreed upon with ATB.
 ***
 
 ### Headers
@@ -304,7 +309,7 @@ If you're experiencing any issues or any other difficulties, please contact us.
 * Query string
 
     ```http
-    https://infoclient.api-atb.com/opendata/realtime/arrivals??page=1&limit=3&sortBy=dateheurevol&order=descending&start=2019-08-27&end=2019-08-28
+    https://infoclient.api-atb.com/opendata/realtime/arrivals?page=1&limit=3&sortBy=dateheurevol&order=descending&start=2019-08-27&end=2019-08-28
     ```
 
 * Parameters
@@ -414,7 +419,7 @@ If you're experiencing any issues or any other difficulties, please contact us.
 * Query string
 
     ```http
-    https://infoclient.api-atb.com/opendata/realtime/arrivals?page=1&limit=3&sortBy=dateheurevol&order=descending&start=2019-08-27&end=2019-08-28
+    https://infoclient.api-atb.com/opendata/realtime/departures?page=1&limit=3&sortBy=dateheurevol&order=descending&start=2019-08-27&end=2019-08-28
     ```
 
 * Parameters
