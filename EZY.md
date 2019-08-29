@@ -1,8 +1,4 @@
-# ATB Open Data API
-
-***
-
-## Introduction
+# Introduction
 
 ***
 
@@ -117,7 +113,7 @@ TBD
 If you're experiencing any issues or any other difficulties, please contact us.
 ***
 
-## Reference
+# Reference
 
 ***
 
