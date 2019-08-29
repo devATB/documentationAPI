@@ -374,7 +374,7 @@ If you're experiencing any issues or any other difficulties, please contact us.
 * Query string
 
     ```http
-    https://infoclient.api-atb.com/opendata/health
+    https://infoclient.api-atb.com/ezy/health
     ```
 
 * Parameters
