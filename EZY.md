@@ -40,7 +40,6 @@ Rate limiting is activated by default. It depends on the usage plan agreed upon 
     | x-cache        | Indicates whether the response has been cached or not                                                                                                     |
 
 
-
 ### HTTP code status replies
 
 * Main HTTP code status replies used in this API.
@@ -54,7 +53,6 @@ Rate limiting is activated by default. It depends on the usage plan agreed upon 
     | 500              | Internal Server Error | Other errors from server that make the request a failure                 |
 
 
-
 ### Error handling
 
 When the API returns a status code indicating an error, it will also include a JSON describing the error.
@@ -66,7 +64,6 @@ For example:
     "message": "Bad Request"
 }
 ```
-
 
 
 ### Date and time
@@ -96,7 +93,6 @@ If no time information is given in a moment representation, the time is assumed 
     ```
 
 
-
 ### URL parameters
 
 Query strings must be url encoded.
@@ -114,7 +110,6 @@ If you're experiencing any issues or any other difficulties, please contact us.
 
 # Reference
 
-***
 
 ### Realtime Arrivals
 
@@ -241,7 +236,6 @@ If you're experiencing any issues or any other difficulties, please contact us.
     }
     ````
 
-***
 
 ### Realtime Departures
 
@@ -362,7 +356,6 @@ If you're experiencing any issues or any other difficulties, please contact us.
     }
     ````
 
-***
 
 ### Health
 
