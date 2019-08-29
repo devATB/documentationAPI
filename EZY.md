@@ -9,12 +9,15 @@
 ### API URL and protocol
 
 The base URL for all API end-points is https://infoclient.atb-api.com/ezy.
+
 All requests must use an HTTPS (SSL) connection.
 ***
 
 ### Authentication
 
-The API requires all requests to include an Authorization header. The API key is provided to you by the Aeroport Toulouse Blagnac.
+The API requires all requests to include an Authorization header.
+
+The API key is provided to you by the Aeroport Toulouse Blagnac.
 ***
 
 ### Rate limiting
