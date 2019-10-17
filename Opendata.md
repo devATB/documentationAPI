@@ -3,7 +3,7 @@
 
 ### API URL and protocol
 
-The base URL for all API end-points is https://infoclient.atb-api.com/opendata.
+The base URL for all API end-points is https://infoclient.api-atb.com/opendata.
 
 All requests must use an HTTPS (SSL) connection.
 
